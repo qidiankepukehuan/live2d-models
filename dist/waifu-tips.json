@@ -294,7 +294,7 @@
     "message": "是 Hiyori 哦 ~"
   }, {
     "name": "Amiya",
-    "paths":["https://cdn.jsdelivr.net/gh/qidiankepukehuan/live2d-models@3c5138a604c7974605e8a96f84a743b99010b5f5/阿米娅/阿米娅(1).model3.json"],
+    "paths":["https://cdn.jsdelivr.net/gh/qidiankepukehuan/live2d-models@1.0.1/阿米娅/阿米娅(1).model3.json"],
     "message": "刀客塔~"
   }]
 }
