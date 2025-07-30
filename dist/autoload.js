@@ -5,7 +5,7 @@
 
 // Recommended to use absolute path for live2d_path parameter
 // live2d_path 参数建议使用绝对路径
-const live2d_path = 'https://cdn.jsdelivr.net/gh/qidiankepukehuan/live2d-models@3c5138a604c7974605e8a96f84a743b99010b5f5/dist/';
+const live2d_path = 'https://cdn.jsdelivr.net/gh/qidiankepukehuan/live2d-models@1.0.1/dist/';
 // const live2d_path = '/dist/';
 
 // Method to encapsulate asynchronous resource loading
@@ -56,7 +56,7 @@ function loadExternalResource(url, type) {
   // 配置选项的具体用法见 README.md
   initWidget({
     waifuPath: live2d_path + 'waifu-tips.json',
-    cdnPath: 'https://cdn.jsdelivr.net/gh/qidiankepukehuan/live2d-models@3c5138a604c7974605e8a96f84a743b99010b5f5/dist/',
+    cdnPath: 'https://cdn.jsdelivr.net/gh/qidiankepukehuan/live2d-models@1.0.1/dist/',
     cubism2Path: live2d_path + 'live2d.min.js',
     cubism5Path: 'https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js',
     tools: ['hitokoto', 'asteroids', 'switch-model', 'switch-texture', 'photo', 'info', 'quit'],
